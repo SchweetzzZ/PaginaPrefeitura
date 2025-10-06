@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import './style.css'
 import horizontal from '../../assets/horinzontal.png'
 import logo1 from '../../assets/logo1.png'
 
 function Home() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="container-Principal">
@@ -43,7 +41,7 @@ function Home() {
           <div className="info-column">
             <h3>Contato</h3>
             <p>Email: gabinete@juazeiro.ba.gov.br</p>
-            <p>Telefone: (11) 99999-9999</p>
+            <p>Telefone: (74) 3612-3600</p>
           </div>
           <div className="info-column">
             <h3>Redes Sociais</h3>
